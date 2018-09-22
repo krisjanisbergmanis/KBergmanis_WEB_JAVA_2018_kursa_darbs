@@ -1,0 +1,15 @@
+.idea/
+build/
+target/
+*.iml
+
+#
+#.gitignore
+#.idea/fileTemplates/code/
+#.idea/fileTemplates/includes/
+#.idea/fileTemplates/internal/
+#.idea/fileTemplates/j2ee/
+#src/main/
+#src/test/java/support/
+#target/classes/
+#target/generated-test-sources/
