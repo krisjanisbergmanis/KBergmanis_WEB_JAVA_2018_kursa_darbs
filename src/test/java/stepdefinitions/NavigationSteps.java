@@ -2,8 +2,14 @@ package stepdefinitions;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
+import general.TestContext;
 
 public class NavigationSteps {
+    private TestContext test;
+    public NavigationSteps(TestContext testContext) {
+        this.test = testContext;
+    }
+
     @And("^I navigate to Accounts page$")
     public void iNavigateToAccountsPage() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
@@ -12,8 +18,7 @@ public class NavigationSteps {
 
     @And("^I navigate to Home page$")
     public void iNavigateToHomePage() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        test.getNavigationHeader().selectHomeButton();
     }
 
     @And("^I open invoice for the newest booking$")
@@ -24,7 +29,6 @@ public class NavigationSteps {
 
     @And("^I select FLIGHTS menu in booking section$")
     public void iSelectFLIGHTSMenuInBookingSection() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        test.getNavigationHeader().selectFlights();
     }
 }
