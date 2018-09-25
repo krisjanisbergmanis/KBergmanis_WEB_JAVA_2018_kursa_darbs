@@ -1,26 +1,26 @@
 package utils;
-import java.util.Date;
+import java.util.Calendar;
 
 public class DateSelector {
 
 
     public static String getFirstDate() {
-        Date date = new Date();
-        if (date.getMonth() == 12) {
-            return ("01" + "-" + "01" + "-" + (date.getYear() + 1));
+        Calendar date = Calendar.getInstance();
+        if (date.get(Calendar.MONTH) == 11) {
+            return ((date.get(Calendar.YEAR) + 1) +  "-" + "01" + "-" + "01");
         }
         else {
-            return ("01" + "-" + (date.getMonth() + 1) + "-" + date.getYear());
+            return (date.get(Calendar.YEAR) + "-" + (date.get(Calendar.MONTH) + 2) + "-" + "01");
         }
     }
 
     public static String getSecondDate() {
-        Date date = new Date();
-        if (date.getMonth() == 12) {
-            return ("10" + "-" + "01" + "-" + (date.getYear() + 1));
+        Calendar date = Calendar.getInstance();
+        if (date.get(Calendar.MONTH) == 11) {
+            return ((date.get(Calendar.YEAR) + 1) +  "-" + "01" + "-" + "02");
         }
         else {
-            return ("10" + "-" + (date.getMonth() + 1) + "-" + date.getYear());
+            return (date.get(Calendar.YEAR) + "-" + (date.get(Calendar.MONTH) + 2) + "-" + "10");
         }
     }
 
