@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19dc4d83-6a27-4d44-bca2-98a328244f76" name="Default" comment="Add step definitions with methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/TestContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/general/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/flights/BookingSummaryPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/flights/FlightsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/navigationheader/NavigationHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/signup/SignUpPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/RandomGenerator.java" afterDir="false" />
+    <list default="true" id="19dc4d83-6a27-4d44-bca2-98a328244f76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/NavigationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/NavigationSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bookFlight.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bookFlight.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/bookFlight.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="105">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -42,8 +37,8 @@
       <file leaf-file-name="FlightSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="12" />
+            <state relative-caret-position="119">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -57,23 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestContext.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/general/TestContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BookingsSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -116,8 +99,20 @@
       <file leaf-file-name="DateSelector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/DateSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/general/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,25 +150,26 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/RandomStringGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/general/Users.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/signup/SignUpPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/navigationheader/NavigationHeader.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/NavigationSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/flights/FlightsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/flights/BookingSummaryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/general/TestContext.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/general/User.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="17" />
-    <option name="y" value="86" />
+    <option name="y" value="38" />
     <option name="width" value="1400" />
     <option name="height" value="767" />
   </component>
@@ -413,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537640849142</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement Steps for bookFlight feature&#10;&#10;- I have an existing account&#10;&#10;- I login this account&#10;&#10;- I navigate to Home page&#10;&#10;- I select FLIGHTS menu in booking section&#10;&#10;- I select ROUND TRIP flight option&#10;&#10; - I set ([^\”]*) class tickets&#10;&#10;- I set ([^\”]*) as departure airport&#10;&#10;- I set ([^\”]*) as arrival airport&#10;&#10;- I set valid departure date&#10;&#10;- I set valid return date&#10;&#10;- I open guest selection&#10;&#10;- I set ([^\”]*) adults&#10;&#10;- I set ([^\”]*) children&#10;&#10;- I set ([^\”]*) infant&#10;&#10;- I confirm guest count&#10;&#10;- I search for a flight&#10;&#10;- I book the first flight offer available">
+      <created>1537725183334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537725183334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="86" width="1400" height="767" extended-state="0" />
+    <frame x="17" y="38" width="1400" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -474,7 +477,8 @@
     <MESSAGE value="Add Java Class TestRunner" />
     <MESSAGE value="Add Java Class Hooks" />
     <MESSAGE value="Add step definitions with methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add step definitions with methods" />
+    <MESSAGE value="Implement Steps for bookFlight feature&#10;&#10;- I have an existing account&#10;&#10;- I login this account&#10;&#10;- I navigate to Home page&#10;&#10;- I select FLIGHTS menu in booking section&#10;&#10;- I select ROUND TRIP flight option&#10;&#10; - I set ([^\”]*) class tickets&#10;&#10;- I set ([^\”]*) as departure airport&#10;&#10;- I set ([^\”]*) as arrival airport&#10;&#10;- I set valid departure date&#10;&#10;- I set valid return date&#10;&#10;- I open guest selection&#10;&#10;- I set ([^\”]*) adults&#10;&#10;- I set ([^\”]*) children&#10;&#10;- I set ([^\”]*) infant&#10;&#10;- I confirm guest count&#10;&#10;- I search for a flight&#10;&#10;- I book the first flight offer available" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Steps for bookFlight feature&#10;&#10;- I have an existing account&#10;&#10;- I login this account&#10;&#10;- I navigate to Home page&#10;&#10;- I select FLIGHTS menu in booking section&#10;&#10;- I select ROUND TRIP flight option&#10;&#10; - I set ([^\”]*) class tickets&#10;&#10;- I set ([^\”]*) as departure airport&#10;&#10;- I set ([^\”]*) as arrival airport&#10;&#10;- I set valid departure date&#10;&#10;- I set valid return date&#10;&#10;- I open guest selection&#10;&#10;- I set ([^\”]*) adults&#10;&#10;- I set ([^\”]*) children&#10;&#10;- I set ([^\”]*) infant&#10;&#10;- I confirm guest count&#10;&#10;- I search for a flight&#10;&#10;- I book the first flight offer available" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,23 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/login/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -758,13 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/general/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/navigationheader/NavigationHeader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-268">
@@ -782,10 +762,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DateSelector.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="119">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/OtherSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -822,10 +812,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DateSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="75" selection-start-line="19" selection-start-column="75" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/general/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/general/TestContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="134">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -839,24 +853,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/FlightSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/bookFlight.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="105">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
         </state>
       </provider>
     </entry>
