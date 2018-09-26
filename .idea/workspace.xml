@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022bce13-9a62-4d08-942d-a87dc0f60114" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/TestContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/TestContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/general/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/general/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/flights/BookingSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/flights/BookingSummaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DateSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,29 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bookFlight.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/bookFlight.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookingsSteps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="346">
+              <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -57,6 +33,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/features/bookFlight.feature" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -85,6 +63,11 @@
               <item name="bookingautomationworkshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="phptravelsKBergmanisfinal" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookingautomationworkshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="phptravelsKBergmanisfinal" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bookingautomationworkshop" type="b2602c69:ProjectViewProjectNode" />
@@ -206,10 +189,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32985073" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32985073" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -244,8 +227,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/bookFlight.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/bookFlight.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefinitions/BookingsSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="120" column="10" selection-start-line="120" selection-start-column="10" selection-end-line="120" selection-end-column="10" />
         </state>
       </provider>
     </entry>
