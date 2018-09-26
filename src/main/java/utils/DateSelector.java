@@ -20,7 +20,7 @@ public class DateSelector {
             return ((date.get(Calendar.YEAR) + 1) +  "-" + "01" + "-" + "02");
         }
         else {
-            return (date.get(Calendar.YEAR) + "-" + (date.get(Calendar.MONTH) + 2) + "-" + "10");
+            return (date.get(Calendar.YEAR) + "-" + (date.get(Calendar.MONTH) + 2) + "-" + "02");
         }
     }
 

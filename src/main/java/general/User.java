@@ -8,6 +8,7 @@ import static utils.RandomGenerator.generateRandomString;
 
 @Data
 public class User {
+    private String address;
     private String firstName;
     private String lastName;
     private String mobileNumber;
@@ -15,6 +16,7 @@ public class User {
     private String password;
 
     public User() {
+        this.address = this.firstName = generateRandomString();
         this.firstName = generateRandomString();
         this.lastName = generateRandomString();
         this.mobileNumber = generateRandomPhonenumber();
